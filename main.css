@@ -14,5 +14,32 @@ img {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 2em;
+  padding-left: 0.5em;
+}
+
+#social-media-links a {
+  font-size: 5em;
+  padding: 0.2em 0.4em;
+  color: black;
+}
+
+.fa-instagram {
+  color: #AB1883;
+}
+
+.fa-twitter-square {
+  color: #1DA1F2;
+}
+
+.fa-facebook-official {
+  color: #3B5998;
+}
+
+#social-media-links a:hover {
+  background: black;
+}
+
+#social-media-links a:hover i {
+  color: white;
 }
