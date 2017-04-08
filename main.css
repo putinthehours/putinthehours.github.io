@@ -20,7 +20,7 @@ p {
 
 #social-media-links a {
   font-size: 5em;
-  padding: 0.2em 0.4em;
+  padding: 0em 0.4em;
   color: black;
 }
 
@@ -42,4 +42,24 @@ p {
 
 #social-media-links a:hover i {
   color: white;
+}
+
+.email-signups {
+  padding-left: 0.5em;
+}
+
+.email-signups input, .email-signups button {
+  font-size: 1.5em;
+  width: 50%;
+  border-radius: 0.2em;
+  margin: 2px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.email-signups button {
+  background: #323232;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
